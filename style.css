@@ -1,0 +1,62 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 30vh;
+    background: #000;
+}
+
+.main {
+    padding: 100px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0 0 0;
+    background: rgb(49, 49, 49);
+    border-radius: 30px;
+    color: #fff;
+    border-style: solid;
+    border-color: rgb(87, 87, 87);
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.clicker, .reset {
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.clicker {
+    background: rgb(0, 180, 96);
+}
+
+.reset {
+    background: rgb(177, 0, 0);
+}
+
+.reset:hover {
+    background: rgb(253, 0, 0);
+    font-size: 18px;
+    transition: 70ms linear;
+}
+
+
+.clicker:hover {
+    background: rgb(17, 201, 0);
+    font-size: 18px;
+    transition: 70ms linear;
+}
+
